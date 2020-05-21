@@ -1,12 +1,12 @@
 # api-generator
 
-### Prepare
-> 1. node.js
-> 2. npm
-
 ### Demand
 > Use just one line code to generate a template file, there is a API file template.
 > (Just a template file! You have to change some arguments or options to fit your demand.)
+
+### Prepare
+> 1. node.js
+> 2. npm
 
 ### Usage
 ```nodejs
