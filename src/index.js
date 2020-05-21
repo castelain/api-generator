@@ -11,7 +11,7 @@ function processTemplate(data, entity) {
 }
 
 function generate(destination, entity) {
-	const rs = fs.createReadStream(path.resolve(__dirname) + '/init-template.txt');
+	const rs = fs.createReadStream(path.resolve(__dirname) + '/templates/init-template.txt');
 	const ws = fs.createWriteStream(destination);
 	rs.on('data', function (chunk) {
 		chunk = processTemplate(chunk, entity);
