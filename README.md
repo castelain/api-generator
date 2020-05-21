@@ -1,20 +1,21 @@
 # api-generator
 
-### What You Need
+### Prepare
 > 1. node.js
 > 2. npm
 
-### What Can We Do
+### Demand
 > Use just one line code to generate a template file, there is a API file template.
 > (Just a template file! You have to change some arguments or options to fit your demand.)
 
-### How To Use It
+### Usage
 ```nodejs
 git clone git@github.com:castelain/api-generator.git
-cd api-generator
+cd ./api-generator
 npm install
+cd ./src
 // It will create a template named template.js in current directory.
- ./generate-template.js -d template.js -e User
+ ./index.js -d template.js -e User
 ```
 
 ### Tips
